@@ -1,0 +1,165 @@
+html {
+  background-color: black;
+  color: rgb(240, 245, 245);
+}
+body {
+  box-sizing: border-box;
+  background-color: black;
+}
+.block {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.subtitle {
+  color: white;
+}
+.title {
+  color: white;
+}
+#one {
+  margin: 20px;
+}
+#sub-three {
+  width: 40%;
+}
+#button-space {
+  padding-left: 20px;
+}
+.para-one {
+  font-size: 10vw;
+  color: rgb(240, 245, 245);
+}
+#two {
+  margin-top: 20px;
+  height: auto;
+  z-index: none;
+}
+.control {
+  padding-right: 5px;
+}
+#super {
+  border-radius: 5px;
+}
+.box {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  border-radius: 50px;
+  border-style: groove;
+  border-color: rgb(0, 0, 0);
+  background-color: #282828;
+  color: rgb(250, 249, 248);
+}
+.card-header {
+  color: rgb(250, 249, 248);
+  box-shadow: 0 4px 8px 0 rgba(51, 50, 50, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.imag {
+  border-radius: 20px;
+}
+a {
+  color: rgba(0, 81, 255, 0.877);
+}
+.contact {
+  color: black;
+}
+.contacts {
+  color: rgb(240, 245, 245);
+  font-size: 25px;
+}
+#header {
+  padding-bottom: 50px;
+}
+.sub-one {
+  font-size: 1.5vw;
+  font-weight: 400;
+  padding-top: 100px;
+}
+#five {
+  border-radius: 100px;
+  width: 100%;
+}
+#footer {
+  margin: 100px;
+  color: white;
+}
+.card-header-title {
+  color: white;
+}
+#footer-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10rem;
+  margin-bottom: 20px;
+}
+#six {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 100px;
+}
+footer {
+  background-color: black;
+}
+@media screen and (max-width: 1200px) {
+  .sub-one {
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sub-one {
+    font-size: 3vw;
+    font-weight: 600;
+  }
+  .contacts {
+    color: rgb(255, 255, 255);
+  }
+}
+@media screen and (max-width: 550px) {
+  #seven {
+    padding-top: 50px;
+  }
+  #five {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+  }
+  #six {
+    padding-top: 10px;
+  }
+  #footer-para {
+    font-size: 2vw;
+    font-weight: 800;
+  }
+}
+@media screen and (max-width: 450px) {
+  #five {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+  }
+  #super {
+    width: 20px;
+    height: auto;
+  }
+  .sub-one {
+    font-size: 4vw;
+    font-weight: 600;
+  }
+  #para-one {
+    font-size: 6vw;
+  }
+  #para-two {
+    font-size: 8vw;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contacts {
+    font-size: 16px;
+  }
+}
